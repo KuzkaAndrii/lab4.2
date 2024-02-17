@@ -1,3 +1,4 @@
 import utils
 if name=="__main__":
-    print(is_p(int(input())))
+    print(utils.is_p(int(input())))
+    print(utils.isf(int(input())))
