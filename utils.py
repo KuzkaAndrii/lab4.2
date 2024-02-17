@@ -6,5 +6,22 @@ def  is_p(n):
     if (fact(n-1)+1)%n==0:
         return "YES"
     return "No"
+<<<<<<< Updated upstream
+=======
+def isf(n):
+    while n%5==0:
+        n=n/5
+    if n<=1:
+        return "YES"
+    else:
+        return "NO"
+def ift(n):
+    while n%2==0:
+        n=n/2
+    if n<=1:
+        return "YES"
+    else:
+        return "NO"
+>>>>>>> Stashed changes
 if name=="__main__":
     print("Hello, world!")
