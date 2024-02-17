@@ -2,12 +2,10 @@ def fact(n):
     if n==1 or n==0:
         return 1
     return n*fact(n-1)
-def  is_p(n):
+def is_p(n):
     if (fact(n-1)+1)%n==0:
         return "YES"
     return "No"
-<<<<<<< Updated upstream
-=======
 def isf(n):
     while n%5==0:
         n=n/5
@@ -22,6 +20,5 @@ def ift(n):
         return "YES"
     else:
         return "NO"
->>>>>>> Stashed changes
 if name=="__main__":
     print("Hello, world!")
